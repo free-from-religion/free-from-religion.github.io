@@ -157,12 +157,14 @@ h3
 	text-wrap: balance;
 }
 
-h3.index-links
+.index-links { margin-top: 23px; }
+
+.index-links h5
 {
 	font-family: 'Libre Baskerville', Georgia, Serif;
-	font-size: 1rem;
-	line-height: 1.8;
-	margin: 0px;
+	font-size: 1.1rem;
+	line-height: 1.4;
+	margin: 15px 0px;
 }
 
 h4
@@ -413,7 +415,13 @@ ul, ol { margin-left: -19px; }
 		text-align: initial;
 	}
 
-	.header { }
+	.index-links { margin-top: 24px; }
+
+	.index-links h5
+	{
+		font-size: 1rem;
+		margin: 10px 0px;
+	}
 
 	.navigation-button
 	{
@@ -441,14 +449,6 @@ ul, ol { margin-left: -19px; }
 	}
 
 	.counseling li { text-align: justify; }
-
-	h3.index-links
-	{
-		font-family: 'Libre Baskerville', Georgia, Serif;
-		font-size: 1.1rem;
-		line-height: 1.7;
-	}
-
 	.main-div { padding: 0px 38px 36px 38px; }
 
 	.navigation-button-corner
