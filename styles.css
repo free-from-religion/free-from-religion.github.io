@@ -208,6 +208,7 @@ h6
 	font-family: 'Helvetica', Sans-Serif;
 	hyphens: none;
 	letter-spacing: 0.01rem;
+	padding: 0px 14px 0px 14px;
 	text-align: center;
 }
 
@@ -264,7 +265,7 @@ li:not(:first-child) { margin-top: 7px; }
 .main-div
 {
 	line-height: 1.6;
-	padding: 0px 15px 12px 15px;
+	padding: 0px 14px 11px 14px;
 }
 
 .navigation
@@ -274,7 +275,6 @@ li:not(:first-child) { margin-top: 7px; }
 	grid-template-columns: repeat(3, minmax(0, 1fr));
 	line-height: 1.15;
 	margin-top: 19px;
-	margin-right: -2px;
 }
 
 .navigation-button-top-left
@@ -413,6 +413,8 @@ ul, ol { margin-left: -19px; }
 		text-align: initial;
 	}
 
+	.header { }
+
 	.navigation-button
 	{
 		top: 15px;
@@ -447,7 +449,7 @@ ul, ol { margin-left: -19px; }
 		line-height: 1.7;
 	}
 
-	.main-div { padding: 0px 39px 37px 39px; }
+	.main-div { padding: 0px 38px 36px 38px; }
 
 	.navigation-button-corner
 	{
