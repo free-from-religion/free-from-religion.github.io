@@ -107,6 +107,12 @@ cite { font-style: normal; }
 
 .counseling li { text-align: left; }
 
+.covers
+{
+	width: 30%;
+	border-radius: 2px;
+}
+
 .footer
 {
 	font-family: 'Helvetica', Sans-Serif;
@@ -415,6 +421,7 @@ ul, ol { margin-left: -19px; }
 		text-align: initial;
 	}
 
+	.covers { width: 40%; }
 	.index-links { margin-top: 24px; }
 
 	.index-links h5
