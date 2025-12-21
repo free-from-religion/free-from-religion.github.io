@@ -54,6 +54,7 @@ a
 }
 
 .below-copyright { margin-top: 22px; }
+.below-covers { margin-top: -10px; }
 .below-h1 { margin-top: -6px; }
 .below-h5 { margin-top: -13px; }
 
@@ -109,8 +110,9 @@ cite { font-style: normal; }
 
 .covers
 {
-	width: 30%;
 	border-radius: 2px;
+	margin-top: -38px;
+	width: 40%;
 }
 
 .footer
@@ -421,7 +423,8 @@ ul, ol { margin-left: -19px; }
 		text-align: initial;
 	}
 
-	.covers { width: 40%; }
+	.below-covers { margin-top: -8px; }
+	.covers { width: 55%; }
 	.index-links { margin-top: 24px; }
 
 	.index-links h5
