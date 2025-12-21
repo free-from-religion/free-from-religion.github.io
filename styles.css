@@ -54,7 +54,7 @@ a
 }
 
 .below-copyright { margin-top: 22px; }
-.below-covers { margin-top: -10px; }
+.below-covers { margin-top: -14px; }
 .below-h1 { margin-top: -6px; }
 .below-h5 { margin-top: -13px; }
 
@@ -111,7 +111,7 @@ cite { font-style: normal; }
 .covers
 {
 	border-radius: 2px;
-	margin-top: -38px;
+	margin-top: -51px;
 	width: 40%;
 }
 
@@ -423,8 +423,14 @@ ul, ol { margin-left: -19px; }
 		text-align: initial;
 	}
 
-	.below-covers { margin-top: -8px; }
-	.covers { width: 55%; }
+	.below-covers { margin-top: -11px; }
+
+	.covers
+	{
+		margin-top: -48px;
+		width: 55%;
+	}
+
 	.index-links { margin-top: 24px; }
 
 	.index-links h5
