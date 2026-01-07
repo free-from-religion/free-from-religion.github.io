@@ -440,6 +440,13 @@ ul, ol { margin-left: -19px; }
 		left: 15px;
 	}
 
+	.navigation-button-top-left
+	{
+		-webkit-text-stroke: 3px #fff;
+		text-stroke: 3px #fff;
+		paint-order: stroke fill;
+	}
+
 	.wrapper
 	{
 		background-image: url('media/wrapper-background-mobile.jpg');
