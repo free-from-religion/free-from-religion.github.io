@@ -7,6 +7,13 @@
 }
 @font-face {
     font-family: 'Libre Baskerville';
+    src: url('media/Font-Libre-Baskerville-Semi-Bold.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Libre Baskerville';
     src: url('media/Font-Libre-Baskerville-Italic.woff2') format('woff2');
     font-weight: normal;
     font-style: italic;
@@ -14,15 +21,22 @@
 }
 @font-face {
     font-family: 'Libre Baskerville';
-    src: url('media/Font-Libre-Baskerville-Bold.woff2') format('woff2');
+    src: url('media/Font-Libre-Baskerville-Italic-Semi-Bold.woff2') format('woff2');
     font-weight: bold;
-    font-style: normal;
+    font-style: italic;
     font-display: swap;
 }
 @font-face {
     font-family: 'Roboto';
     src: url('media/Font-Roboto-Regular.woff2') format('woff2');
     font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url('media/Font-Roboto-Semi-Bold.woff2') format('woff2');
+    font-weight: bold;
     font-style: normal;
     font-display: swap;
 }
@@ -35,14 +49,7 @@
 }
 @font-face {
     font-family: 'Roboto';
-    src: url('media/Font-Roboto-Semi-Bold.woff2') format('woff2');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
-}
-@font-face {
-    font-family: 'Roboto';
-    src: url('media/Font-Roboto-Semi-Bold-Italic.woff2') format('woff2');
+    src: url('media/Font-Roboto-Italic-Semi-Bold.woff2') format('woff2');
     font-weight: bold;
     font-style: italic;
     font-display: swap;
@@ -176,7 +183,7 @@ h2
 {
 	font-family: 'Roboto', Sans-Serif;
 	font-size: 1.5rem;
-	margin: 9px 0px;
+	margin: 10px 0px;
 	text-wrap: balance;
 }
 
@@ -193,7 +200,7 @@ h4
 	font-family: 'Roboto', Sans-Serif;
 	font-size: 1.1rem;
 	font-weight: normal;
-	margin: 11px 0px;
+	margin: 12px 0px;
 	text-align: center;
 	text-wrap: balance;
 }
