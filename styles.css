@@ -64,12 +64,12 @@ html, body
 	hyphens: auto;
 	margin: 0 auto;
 	padding: 0;
-	text-align: justify;
+	/* text-align: justify; */
 }
 
 a
 {
-	color: #025eee;
+	color: #005ddd;
 	font-weight: bold;
 	outline: 0;
 	text-decoration: none;
@@ -558,7 +558,7 @@ ul, ol { margin-left: -19px; }
 		margin: 36px 0px 26px 0px;
 	}
 
-	.counseling li { text-align: justify; }
+	/* .counseling li { text-align: justify; } */
 	.main-div { padding: 0px 38px 36px 38px; }
 
 	.navigation-button-corner
