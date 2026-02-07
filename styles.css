@@ -64,7 +64,7 @@ html, body
 	hyphens: auto;
 	margin: 0 auto;
 	padding: 0;
-	/* text-align: justify; */
+	text-align: justify;
 }
 
 a
@@ -217,7 +217,7 @@ h2
 {
 	font-family: 'Roboto', Sans-Serif;
 	font-size: 1.5rem;
-	margin: 10px 0px;
+	margin: 9px 0px;
 	text-wrap: balance;
 }
 
@@ -234,7 +234,7 @@ h4
 	font-family: 'Roboto', Sans-Serif;
 	font-size: 1.1rem;
 	font-weight: normal;
-	margin: 12px 0px;
+	margin: 11px 0px;
 	text-align: center;
 	text-wrap: balance;
 }
@@ -558,7 +558,7 @@ ul, ol { margin-left: -19px; }
 		margin: 36px 0px 26px 0px;
 	}
 
-	/* .counseling li { text-align: justify; } */
+	.counseling li { text-align: justify; }
 	.main-div { padding: 0px 38px 36px 38px; }
 
 	.navigation-button-corner
