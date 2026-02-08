@@ -95,13 +95,13 @@ a
 
 .below-h1
 {
-	margin: -10px 0px 0px 0px;
+	margin: -11px 0px 0px 0px;
 	text-indent: 0px;
 }
 
 .below-h5
 {
-	margin: -19px 0px 0px 0px;
+	margin: -17px 0px 0px 0px;
 	text-indent: 0px;
 }
 
@@ -125,7 +125,7 @@ a
 	font-size: 1.05rem;
 	letter-spacing: 0.01rem;
 	line-height: 1.15;
-	margin: 7px 0px;
+	margin: 6px 0px;
 	text-align: center;
 	text-indent: 0px;
 	text-wrap: balance;
@@ -136,7 +136,7 @@ cite { font-style: normal; }
 .contact-links
 {
 	font-size: 0.85rem;
-	margin: 36px 0px 26px 0px;
+	margin: 37px 0px 26px 0px;
 }
 
 .contact-links p
@@ -183,7 +183,7 @@ cite { font-style: normal; }
 	font-family: 'Roboto', Sans-Serif;
 	font-size: 0.9rem;
 	letter-spacing: 0.01rem;
-	margin-top: 24px;
+	margin-top: 23px;
 	text-indent: 0px;
 }
 
@@ -217,7 +217,7 @@ h2
 {
 	font-family: 'Roboto', Sans-Serif;
 	font-size: 1.5rem;
-	margin: 9px 0px;
+	margin: 5px 0px;
 	text-wrap: balance;
 }
 
@@ -225,7 +225,7 @@ h3
 {
 	font-family: 'Roboto', Sans-Serif;
 	font-size: 1.2rem;
-	margin: -1px 0px;
+	margin: 5px 0px;
 	text-wrap: balance;
 }
 
@@ -245,7 +245,7 @@ h5
 	font-size: 1.5rem;
 	font-weight: normal;
 	line-height: 1.1;
-	margin: 41px 0px;
+	margin: 40px 0px;
 	text-align: center;
 	text-wrap: balance;
 }
@@ -309,7 +309,18 @@ img.below-h1
 	font-family: 'Roboto', Sans-Serif;
 	font-size: 1.05rem;
 	letter-spacing: 0.01rem;
-	margin-top: 24px;
+	margin-top: 25px;
+	text-align: center;
+	text-indent: 0px;
+}
+
+.languages-below-quote-author
+{
+	color: #bbb;
+	font-family: 'Roboto', Sans-Serif;
+	font-size: 1.05rem;
+	letter-spacing: 0.01rem;
+	margin-top: 23px;
 	text-align: center;
 	text-indent: 0px;
 }
@@ -392,7 +403,7 @@ p
 	font-weight: bold;
 	letter-spacing: 0.01rem;
 	line-height: 1.4;
-	margin: 24px 40px 0px 40px;
+	margin: 22px 40px 0px 40px;
 	text-align: left;
 	text-indent: -0.75ch;
 }
@@ -403,7 +414,7 @@ p
 	font-size: 1.1rem;
 	font-weight: normal;
 	line-height: 1.5;
-	margin: 3px 0px;
+	margin: 5px 0px;
 	text-align: right;
 }
 
@@ -414,7 +425,7 @@ p
 	font-weight: bold;
 	letter-spacing: 0.01rem;
 	line-height: 1.4;
-	margin: 53px 40px 22px 40px;
+	margin: 51px 40px 22px 40px;
 	text-align: left;
 	text-indent: -0.75ch;
 }
@@ -424,7 +435,7 @@ p
 	font-family: 'Roboto', Sans-Serif;
 	font-size: 1.05rem;
 	letter-spacing: 0.01rem;
-	margin: 17px 0px 15px 20px;
+	margin: 23px 0px 21px 20px;
 	text-indent: 0px;
 }
 
@@ -452,7 +463,7 @@ p
 	font-size: 1.3rem;
 	line-height: 0;
 	margin-top: 39px;
-	margin-bottom: 36px;
+	margin-bottom: 37px;
 	text-align: center;
 	text-indent: 0px;
 }
@@ -475,11 +486,11 @@ p
 	color: #bbb;
 	font-size: 1rem;
 	line-height: 1.3;
-	margin-top: 29px;
+	margin-top: 27px;
 	text-indent: 0px;
 }
 
-ul, ol { margin-left: -19px; }
+ul, ol { margin: 23px 0px 20px -19px; }
 
 .video
 {
@@ -555,7 +566,7 @@ ul, ol { margin-left: -19px; }
 	.contact-links
 	{
 		font-size: 0.9rem;
-		margin: 36px 0px 26px 0px;
+		margin: 37px 0px 26px 0px;
 	}
 
 	.counseling li { text-align: justify; }
