@@ -561,7 +561,7 @@ ul, ol { margin: 23px 0px 20px -19px; }
 
 @media only screen and (min-width: 750px)
 {
-	html, body { width: 730px; }
+	html, body { width: 800px; }
 
 	.contact-links
 	{
