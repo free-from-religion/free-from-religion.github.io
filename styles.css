@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Libre Baskerville';
-    src: url('media/Font-Libre-Baskerville-Regular.woff2') format('woff2');
+    src: url('media/Font-Libre-Baskerville.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -28,7 +28,7 @@
 }
 @font-face {
     font-family: 'Roboto';
-    src: url('media/Font-Roboto-Regular.woff2') format('woff2');
+    src: url('media/Font-Roboto.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -89,7 +89,7 @@ a
 
 .below-covers
 {
-	margin: -13px 0px 0px 0px;
+	margin: -12px 0px 0px 0px;
 	text-indent: 0px;
 }
 
@@ -101,7 +101,7 @@ a
 
 .below-h5
 {
-	margin: -17px 0px 0px 0px;
+	margin: -18px 0px 0px 0px;
 	text-indent: 0px;
 }
 
@@ -125,7 +125,7 @@ a
 	font-size: 1.05rem;
 	letter-spacing: 0.01rem;
 	line-height: 1.15;
-	margin: 6px 0px;
+	margin: 7px 0px;
 	text-align: center;
 	text-indent: 0px;
 	text-wrap: balance;
@@ -244,8 +244,8 @@ h5
 	font-family: 'Roboto', Sans-Serif;
 	font-size: 1.5rem;
 	font-weight: normal;
-	line-height: 1.1;
-	margin: 40px 0px;
+	line-height: 1.35;
+	margin: 37px 0px;
 	text-align: center;
 	text-wrap: balance;
 }
@@ -453,7 +453,7 @@ p
 	display: block;
 	font-size: 1rem;
 	font-weight: normal;
-	margin: -8px 0px 26px 0px;
+	margin: -11px 0px 26px 0px;
 	text-align: right;
 }
 
@@ -528,7 +528,6 @@ ul, ol { margin: 23px 0px 20px -19px; }
 		text-align: initial;
 	}
 
-	.below-covers { margin-top: -11px; }
 	.covers { width: 55%; }
 
 	.index-links h5
