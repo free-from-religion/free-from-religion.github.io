@@ -47,6 +47,8 @@
     font-style: italic;
     font-display: swap;
 }
+
+/*
 @font-face {
     font-family: 'Roboto';
     src: url('media/Font-Roboto-Italic-Semi-Bold.woff2') format('woff2');
@@ -54,6 +56,7 @@
     font-style: italic;
     font-display: swap;
 }
+*/
 
 html, body
 {
@@ -380,7 +383,7 @@ li:not(:first-child) { margin-top: 7px; }
 }
 
 .no-indent { text-indent: 0px; }
-.numbered-quotes { margin: 0px; }
+.numbered-quotes { margin: 1px 0px; }
 
 p
 {
@@ -527,6 +530,7 @@ ul, ol { margin: 20px 0px 22px -19px; }
 		text-align: initial;
 	}
 
+	.caption { font-size: 0.95rem; }
 	.covers { width: 55%; }
 
 	.index-links h5
@@ -546,8 +550,8 @@ ul, ol { margin: 20px 0px 22px -19px; }
 		-webkit-text-stroke: 3px #fff;
 		text-stroke: 3px #fff;
 		paint-order: stroke fill;
-		top: 13px;
-		left: 15px;
+		top: 16px;
+		left: 14px;
 	}
 
 	.wrapper
