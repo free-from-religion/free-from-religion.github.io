@@ -565,7 +565,7 @@ ul, ol { margin: 20px 0px 22px -19px; }
 
 @media only screen and (min-width: 750px)
 {
-	html, body { width: 800px; }
+	html, body { width: 750px; }
 	.contact-links { font-size: 0.9rem; }
 	.counseling li { text-align: justify; }
 	.main-div { padding: 0px 38px 34px 38px; }
