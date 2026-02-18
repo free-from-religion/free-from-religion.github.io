@@ -162,6 +162,20 @@ cite { font-style: normal; }
 	text-indent: -20px;
 }
 
+.container
+{
+	background-color: #fff;
+	background-image: url('media/container-background.jpg');
+	background-position: top;
+	background-repeat: no-repeat;
+	background-size: contain;
+	border-radius: 8px;
+	margin-bottom: 19px;
+	margin-top: 19px;
+}
+
+.content { padding: 0px 14px 11px 14px; }
+
 .copyright
 {
 	color: #999;
@@ -345,8 +359,6 @@ li:not(:first-child) { margin-top: 5px; }
 	width: 190px;
 }
 
-.main { padding: 0px 14px 11px 14px; }
-
 .navigation
 {
 	display: grid;
@@ -493,18 +505,6 @@ ul { margin: 20px 0px 20px -19px; }
 	left: 0;
 }
 
-.wrapper
-{
-	background-color: #fff;
-	background-image: url('media/wrapper-background.jpg');
-	background-position: top;
-	background-repeat: no-repeat;
-	background-size: contain;
-	border-radius: 8px;
-	margin-bottom: 19px;
-	margin-top: 19px;
-}
-
 @media only screen and (max-width: 749px)
 {
 	html, body
@@ -514,6 +514,15 @@ ul { margin: 20px 0px 20px -19px; }
 	}
 
 	.caption { font-size: 0.95rem; }
+
+	.container
+	{
+		background-image: url('media/container-background-mobile.jpg');
+		border-radius: 0px;
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+
 	.covers { width: 55%; }
 
 	.index-links h5
@@ -536,14 +545,6 @@ ul { margin: 20px 0px 20px -19px; }
 		top: 16px;
 		left: 14px;
 	}
-
-	.wrapper
-	{
-		background-image: url('media/wrapper-background-mobile.jpg');
-		border-radius: 0px;
-		margin-top: 0px;
-		margin-bottom: 0px;
-	}
 }
 
 @media only screen and (min-width: 750px)
@@ -551,7 +552,7 @@ ul { margin: 20px 0px 20px -19px; }
 	html, body { width: 750px; }
 	.contact-links { font-size: 0.9rem; }
 	.counseling li { text-align: justify; }
-	.main { padding: 0px 38px 35px 38px; }
+	.content { padding: 0px 38px 35px 38px; }
 
 	.poem
 	{
