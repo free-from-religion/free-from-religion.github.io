@@ -371,7 +371,7 @@ li:not(:first-child) { margin-top: 5px; }
 .navigation-button-top
 {
 	font-size: 1.4rem;
-	position: absolute;
+	position: fixed;
 	top: 15px;
 	left: 20px;
 }
@@ -546,8 +546,8 @@ ul
 
 	.navigation-button-top
 	{
-		-webkit-text-stroke: 3px #fff;
-		text-stroke: 3px #fff;
+		-webkit-text-stroke: 7px #fff;
+		text-stroke: 7px #fff;
 		paint-order: stroke fill;
 		top: 10px;
 		left: 14px;
