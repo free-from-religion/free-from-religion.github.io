@@ -407,6 +407,20 @@ p
 	text-indent: 20px;
 }
 
+.photography-album
+{
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	grid-template-rows: repeat(9, 1fr);
+	margin-top: 22px;
+}
+
+.photography-album div
+{
+	margin-top: -9px;
+	outline: solid 1px #fff;
+}
+
 .poem
 {
 	margin: 0px;
@@ -552,6 +566,16 @@ ul
 		top: 10px;
 		left: 14px;
 	}
+
+	.photography-album
+	{
+		display: grid;
+		grid-template-columns: repeat(4, 1fr);
+		grid-template-rows: repeat(10, 1fr);
+		margin-top: 42px;
+	}
+
+	.photography-album-last-picture { display: none; }
 }
 
 @media only screen and (min-width: 750px)
