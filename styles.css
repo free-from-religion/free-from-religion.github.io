@@ -418,7 +418,7 @@ p
 .photography-album div
 {
 	margin-top: -9px;
-	outline: solid 1px #fff;
+	outline: solid 2px #fff;
 }
 
 .poem
@@ -572,7 +572,6 @@ ul
 		display: grid;
 		grid-template-columns: repeat(4, 1fr);
 		grid-template-rows: repeat(10, 1fr);
-		margin-top: 42px;
 	}
 
 	.photography-album-last-picture { display: none; }
