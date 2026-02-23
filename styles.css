@@ -560,11 +560,12 @@ ul
 
 	.navigation-button-top
 	{
-		-webkit-text-stroke: 7px #fff;
-		text-stroke: 7px #fff;
-		paint-order: stroke fill;
 		top: 10px;
-		left: 14px;
+		left: 10px;
+		background: #fff;
+		border-radius: 2px;
+		line-height: 1;
+		padding: 8px 4px 0.5px 4px;
 	}
 
 	.photography-album
