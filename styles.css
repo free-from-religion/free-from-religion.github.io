@@ -562,11 +562,11 @@ ul
 	.navigation-top
 	{
 		top: 10px;
-		left: 0;
+		left: 9px;
 		background: #fff;
-		border-radius: 0px 6px 6px 0px;
+		border-radius: 6px;
 		line-height: 0.8;
-		padding: 9px 5px 0px 14px;
+		padding: 9px 5px 0.5px 5px;
 	}
 
 	.photography-album
