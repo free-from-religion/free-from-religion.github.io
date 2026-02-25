@@ -69,6 +69,7 @@ html, body
 	margin: 0 auto;
 	padding: 0;
 	text-align: justify;
+	width: 750px;
 }
 
 a
@@ -151,7 +152,7 @@ cite { font-style: normal; }
 
 .contact-links
 {
-	font-size: 0.85rem;
+	font-size: 0.9rem;
 	margin: 39px 0px 26px 0px;
 }
 
@@ -416,9 +417,8 @@ p
 
 .poem
 {
-	margin: 0px;
-	margin-left: 15px;
-	text-indent: -15px;
+	margin-left: 40px;
+	text-indent: -40px;
 }
 
 .quote
@@ -542,7 +542,10 @@ ul
 	{
 		background: #fff;
 		text-align: initial;
+		width: 100%;
 	}
+
+	.contact-links { font-size: 0.85rem; }
 
 	.container
 	{
@@ -593,16 +596,4 @@ ul
 	}
 
 	.photography-album-last-picture { display: none; }
-}
-
-@media only screen and (min-width: 750px)
-{
-	html, body { width: 750px; }
-	.contact-links { font-size: 0.9rem; }
-
-	.poem
-	{
-		margin-left: 40px;
-		text-indent: -40px;
-	}
 }
