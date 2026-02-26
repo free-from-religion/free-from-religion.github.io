@@ -545,8 +545,6 @@ ul
 		width: 100%;
 	}
 
-	.contact-links { font-size: 0.85rem; }
-
 	.container
 	{
 		background-image: url('media/container-background-mobile.jpg');
@@ -555,45 +553,16 @@ ul
 	}
 
 	.content { padding: 0px 14px 11px 14px; }
-	.covers { width: 55%; }
-
-	.index-links h5
-	{
-		font-size: 1rem;
-		line-height: 1.55;
-	}
+	.logo { margin-top: 14px; }
 
 	.navigation-top
 	{
-		top: 11px;
-		left: 9px;
-		background: #fff;
-		border-radius: 5px;
-		font-size: 1.15rem;
-		line-height: 0.8;
-		padding: 9px 4.5px 4px 5px;
+		top: 18px;
+		left: 14px;
+		-webkit-text-stroke: 2px #fff;
+		text-stroke: 2px #fff;
+		paint-order: stroke fill;
 	}
 
-	.navigation-bottom
-	{
-		font-size: 1.15rem;
-		margin-top: 23px;
-	}
-
-	.navigation-bottom-arrows
-	{
-		font-size: 1.35rem;
-		line-height: 0.9;
-	}
-
-	.navigation-bottom-pagination { line-height: 1.1; }
-
-	.photography-album
-	{
-		display: grid;
-		grid-template-columns: repeat(4, 1fr);
-		grid-template-rows: repeat(10, 1fr);
-	}
-
-	.photography-album-last-picture { display: none; }
+	.navigation-bottom { margin-top: 24px; }
 }
