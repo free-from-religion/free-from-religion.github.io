@@ -68,7 +68,7 @@ html, body
 	line-height: 1.7;
 	margin: 0 auto;
 	padding: 0;
-	text-align: justify;
+	/* text-align: justify; */
 	width: 750px;
 }
 
