@@ -312,9 +312,9 @@ h6
 
 img { max-width: 100%; }
 .indent { text-indent: 20px; }
-.index-links { margin-top: 23px; }
+#index-links { padding-top: 8px; }
 
-.index-links h5
+#index-links h5
 {
 	font-family: 'Constantia', Georgia, Serif;
 	font-size: 1.1rem;
