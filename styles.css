@@ -232,6 +232,14 @@ cite { font-style: normal; }
 	text-align: center;
 }
 
+.guitar
+{
+	fill: #fff;
+	font-family: 'Roboto', Sans-Serif;
+	font-size: 3.5rem;
+	letter-spacing: 0.01rem;
+}
+
 h1
 {
 	font-family: 'Roboto', Sans-Serif;
@@ -563,6 +571,7 @@ ul
 		width: 60%;
 	}
 
+	.guitar { font-size: 4rem; }
 	.logo { margin-top: 14px; }
 
 	.navigation-top
