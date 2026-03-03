@@ -268,7 +268,8 @@ h3
 {
 	font-family: 'Roboto', Sans-Serif;
 	font-size: 1.2rem;
-	margin: -6px 0px 0px 0px;
+	line-height: 1.1;
+	margin: 0px;
 	text-wrap: balance;
 }
 
@@ -277,7 +278,7 @@ h4
 	font-family: 'Roboto', Sans-Serif;
 	font-size: 1.1rem;
 	font-weight: normal;
-	margin: 0px;
+	margin: 6px 0px 0px 0px;
 	text-align: center;
 	text-wrap: balance;
 }
