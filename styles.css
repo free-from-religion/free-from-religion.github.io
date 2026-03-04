@@ -60,7 +60,7 @@ font-display: swap;
 
 html, body
 {
-	background: #f4f4f4;
+	background: #ececec;
 	color: #000;
 	font-family: 'Constantia', Georgia, Serif;
 	font-size: 1rem;
@@ -166,9 +166,9 @@ cite { font-style: normal; }
 {
 	background-color: #fff;
 	background-image: url('media/container-background.jpg');
-	background-position: top;
+	background-position: center top;
 	background-repeat: no-repeat;
-	background-size: contain;
+	background-size: 750px;
 	border-radius: 8px;
 	margin: 0 auto;
 	width: 750px;
@@ -564,7 +564,6 @@ ul
 
 	.container
 	{
-		background-image: url('media/container-background-mobile.jpg');
 		border-radius: 0px;
 		width: 100%;
 	}
