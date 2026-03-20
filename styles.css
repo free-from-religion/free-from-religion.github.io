@@ -602,3 +602,14 @@ ul
 	.navigation-bottom-arrows { font-size: 1.19rem; }
 	.navigation-bottom-button { font-size: 1.2rem; }
 }
+
+@media only screen and (max-width: 414px)
+{
+	.container { background-size: 414px; }
+
+	.logo
+	{
+		margin-top: 0px;
+		width: 125px;
+	}
+}
