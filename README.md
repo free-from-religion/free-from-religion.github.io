@@ -2,7 +2,7 @@ Atheism, Humanism and Freethought.
 
 Books “Liberated from Religion” and “Wasting Time on God”, by Paulo Bittencourt. 
 
-<a href="https://atheism-bittencourt.github.io/books">Books</a>
+<a href="https://atheism-bittencourt.github.io/books">Download Paulo Bittencourt’s Books</a>
 
 <a href="https://free-from-religion.github.io/fanaticism">A Childhood of Fanaticism</a>
 
