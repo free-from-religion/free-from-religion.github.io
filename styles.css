@@ -166,7 +166,7 @@ cite { font-style: normal; }
 {
 	background-color: #fff;
 	background-image: url('media/container-background.jpg');
-	background-position: center top;
+	background-position: center -40px;
 	background-repeat: no-repeat;
 	background-size: 750px;
 	border-radius: 8px;
@@ -605,11 +605,6 @@ ul
 
 @media only screen and (max-width: 414px)
 {
-	.container { background-size: 414px; }
-
-	.logo
-	{
-		margin-top: 0px;
-		width: 125px;
-	}
+	.container { background-position: center -78px; }
+	.logo { width: 125px; }
 }
