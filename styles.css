@@ -256,6 +256,7 @@ h1
 	text-wrap: balance;
 }
 
+/*
 h2
 {
 	font-family: 'Roboto', Sans-Serif;
@@ -263,13 +264,34 @@ h2
 	margin: -6px 0px 0px 0px;
 	text-wrap: balance;
 }
+*/
 
+h2
+{
+	font-family: 'Constantia', Georgia, Serif;
+	font-size: 1.4rem;
+	letter-spacing: -0.02rem;
+	margin: -3px 0px 0px 0px;
+	text-wrap: balance;
+}
+
+/*
 h3
 {
 	font-family: 'Roboto', Sans-Serif;
 	font-size: 1.2rem;
 	line-height: 1.1;
 	margin: 0px;
+	text-wrap: balance;
+}
+*/
+
+h3
+{
+	font-family: 'Roboto', Sans-Serif;
+	font-size: 1.2rem;
+	line-height: 1.1;
+	margin: -2px 0px 0px 0px;
 	text-wrap: balance;
 }
 
