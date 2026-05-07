@@ -147,7 +147,7 @@ cite { font-style: normal; }
 .contact-links
 {
 	font-size: 0.9rem;
-	margin: 44px 0px 26px 0px;
+	margin: 40px 0px 26px 0px;
 }
 
 .contact-links p
@@ -378,11 +378,9 @@ li:not(:first-child) { margin-top: 5px; }
 
 .like-button
 {
-	background: #005ddd;
-	border-radius: 50%;
-	color: #fff;
-	font-size: 1.1rem;
-	padding: 11px 10px 11px 10px;
+	color: #005ddd;
+	font-size: 2.5rem;
+	line-height: 1;
 }
 
 .logo
